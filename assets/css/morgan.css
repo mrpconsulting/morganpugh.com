@@ -5,4 +5,14 @@
   border-top: 1px solid #ccc; /* Adds a clean grey top border */
 }
 
+/* Add spacing between paragraphs */
+#one p {
+    margin-bottom: 1.5em; /* Adjust as needed */
+}
+
+/* Optional: smaller spacing for section titles */
+#one h2 {
+    margin-bottom: 0.5em;
+}
+
 
