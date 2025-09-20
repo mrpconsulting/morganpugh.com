@@ -1,3 +1,9 @@
+.button.active {
+  background-color: transparent;   /* no background */
+  color: #49bf9d !important;       /* green text */
+  border-color: #49bf9d;           /* green border */
+}
+
 .custom-line {
   width: 75%;
   margin: 0 auto;           /* Centers the line horizontally */
@@ -14,5 +20,6 @@
 #one h2 {
     margin-bottom: 0.5em;
 }
+
 
 
