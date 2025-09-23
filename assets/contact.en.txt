@@ -1,0 +1,12 @@
+<h2>Get In Touch</h2>
+<p>If you think my services will benefit your business, drop me a line and let's meet.</p>
+<div class="row">
+  <div class="col-4 col-12-small">
+    <ul class="labeled-icons">
+      <li>
+        <h3><a href="mailto:morgan@morganpugh.com" class="icon solid fa-envelope"></a></h3>
+        <a href="mailto:morgan@morganpugh.com">morgan@morganpugh.com</a>
+      </li>
+    </ul>
+  </div>
+</div>
