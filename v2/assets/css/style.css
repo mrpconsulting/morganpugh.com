@@ -142,10 +142,10 @@
     .btn-ghost:hover { background: var(--accent-lt); }
 
     .hero-photo {
-      width: 200px;
-      height: 260px;
+      width: 240px;
+      height: 240px;
       object-fit: cover;
-      border-radius: 2px;
+      border-radius: 100%;
       filter: grayscale(15%);
       box-shadow: 8px 12px 40px rgba(0,0,0,0.10);
     }
