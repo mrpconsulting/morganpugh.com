@@ -500,6 +500,7 @@
         grid-template-columns: 1fr;
         padding: 60px 28px 56px;
       }
+      .hero-photo { justify-self: center; }
       .hero-photo-placeholder { display: none; }
       .about-grid,
       .workshops-grid,
