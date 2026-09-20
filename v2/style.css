@@ -240,8 +240,8 @@
     .cred-text strong { color: var(--ink); font-weight: 500; }
 
     /* ── WORKSHOPS ──────────────────────────────────────── */
-    #workshops { background: var(--white); }
-    #workshops .container { max-width: var(--max); }
+    #services { background: var(--white); }
+    #services .container { max-width: var(--max); }
     .workshops-grid {
       margin-top: 48px;
       display: grid;
@@ -310,6 +310,42 @@
       background: var(--accent-lt);
       padding: 4px 10px;
       border-radius: 2px;
+    }
+
+    /* ── PROCESS ────────────────────────────────────────── */
+    #process { background: var(--accent-lt); }
+    #process .container { max-width: var(--max); }
+    .process-grid {
+      margin-top: 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .process-step {
+      background: var(--white);
+      border: 1px solid rgba(45,90,75,0.18);
+      border-radius: 3px;
+      padding: 32px;
+    }
+    .process-num {
+      font-family: var(--serif);
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 18px;
+    }
+    .process-step h3 {
+      font-family: var(--serif);
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+    .process-step p {
+      font-size: 0.92rem;
+      color: var(--mid);
+      line-height: 1.75;
     }
 
     /* ── CASE STUDIES ───────────────────────────────────── */
@@ -504,6 +540,7 @@
       .hero-photo-placeholder { display: none; }
       .about-grid,
       .workshops-grid,
+      .process-grid,
       .testimonials-grid,
       .contact-grid { grid-template-columns: 1fr; gap: 32px; }
       .case-item { grid-template-columns: 1fr; gap: 8px; }
